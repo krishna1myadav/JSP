@@ -1,0 +1,43 @@
+18-Nov-2026 00:18:06.339 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:18:07.342 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2026 00:18:07.356 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:18:07.961 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-9494-Acceptor] did not stop cleanly
+18-Nov-2026 00:18:07.968 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:21:45.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.57
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 3 2026 13:06:05 UTC
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.57.0
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            27.2.1
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+0
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP
+18-Nov-2026 00:21:45.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/krishnamohanyadav/Downloads/KrishnaLocal/apache-tomcat-server/apache-tomcat-10.1.57
+18-Nov-2026 00:21:45.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Nov-2026 00:21:45.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Nov-2026 00:21:45.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Nov-2026 00:21:45.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Nov-2026 00:21:45.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/krishnamohanyadav/Downloads/KrishnaLocal/apache-tomcat-server/apache-tomcat-10.1.57
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/temp
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/conf/logging.properties
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=53580
+18-Nov-2026 00:21:45.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Nov-2026 00:21:45.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/krishnamohanyadav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+18-Nov-2026 00:21:45.244 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:21:45.250 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [175] milliseconds
+18-Nov-2026 00:21:45.263 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Nov-2026 00:21:45.264 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.57]
+18-Nov-2026 00:21:45.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/conf/Catalina/localhost/JSP.xml]
+18-Nov-2026 00:21:45.371 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Nov-2026 00:21:45.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/conf/Catalina/localhost/JSP.xml] has finished in [124] ms
+18-Nov-2026 00:21:45.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:21:45.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [148] milliseconds
+18-Nov-2026 00:34:19.072 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:34:20.075 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Nov-2026 00:34:20.093 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9494"]
+18-Nov-2026 00:34:20.699 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-9494-Acceptor] did not stop cleanly
+18-Nov-2026 00:34:20.701 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9494"]
