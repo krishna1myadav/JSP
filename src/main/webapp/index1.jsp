@@ -9,7 +9,12 @@
 </head>
 <body>
 
-
 <%@page import="java.util.*" %>
+<%@page session="false" %>
+<%@page isELIgnored="false" %>
+<%@page errorPage="error.jsp" %>
+<%@include file="header.jsp" %>
+
+<h1>Time: <%=new Date().toString() %></h1>
 </body>
 </html>
