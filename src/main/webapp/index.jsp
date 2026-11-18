@@ -22,7 +22,6 @@
 
     int sub = 30 - 20;
     out.println("sub = " + sub);
-
 %>
 <h1 style='color: red'>Sum = <%= sum %> </h1>
 <h1 style="color: blue">Sub = <%= sub %> </h1>
