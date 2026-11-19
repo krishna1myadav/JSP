@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context docBase="/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/src/main/webapp"/>
+<Context docBase="/Users/krishnamohanyadav/Downloads/KrishnaLocal/Java_WebDev/ServletAndJSP/JSP/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PostResources base="/Users/krishnamohanyadav/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.2.jar"/>
+    <PostResources base="/Users/krishnamohanyadav/.m2/repository/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.el-api-5.0.0.jar"/>
+    <PostResources base="/Users/krishnamohanyadav/.m2/repository/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar"/>
+  </Resources>
+</Context>

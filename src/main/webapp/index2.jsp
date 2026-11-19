@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+xmlns:s="http://java.sun.com/JSP/Page"
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 
 <!doctype html>
@@ -11,6 +12,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Taglib directive example</h1>
-</body>
+<h1>Taglib directive example</h1><hr>
+<c:set var="name" value="krishna"></c:set>
+<c:out value="${name}"></c:out>
+        </body>
 </html>
