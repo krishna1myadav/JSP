@@ -1,0 +1,5 @@
+20-Nov-2026 00:14:17.027 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9494"]
+20-Nov-2026 00:14:18.030 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Nov-2026 00:14:18.042 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9494"]
+20-Nov-2026 00:14:18.648 WARNING [Thread-1] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-9494-Acceptor] did not stop cleanly
+20-Nov-2026 00:14:18.653 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9494"]

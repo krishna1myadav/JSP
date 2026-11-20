@@ -1,6 +1,6 @@
-xmlns:s="http://java.sun.com/JSP/Page"
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@page isELIgnored="false" %>
 
 <!doctype html>
 <html lang="en">
@@ -12,8 +12,14 @@ xmlns:s="http://java.sun.com/JSP/Page"
     <title>Document</title>
 </head>
 <body>
+
 <h1>Taglib directive example</h1><hr>
 <c:set var="name" value="krishna"></c:set>
 <c:out value="${name}"></c:out>
-        </body>
+
+<c:if test="${5>3}">
+   <h1>true block</h1>
+</c:if>
+
+</body>
 </html>
